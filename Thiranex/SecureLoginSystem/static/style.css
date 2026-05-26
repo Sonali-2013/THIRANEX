@@ -1,0 +1,61 @@
+body {
+
+    font-family: Arial;
+
+    background: #f4f7fb;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+}
+
+.auth-container,
+.dashboard {
+
+    background: white;
+
+    padding: 30px;
+
+    width: 350px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+    text-align: center;
+}
+
+input {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 12px;
+}
+
+button {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 15px;
+
+    cursor: pointer;
+}
+
+.flash-message {
+
+    background: #ffeeba;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+}
